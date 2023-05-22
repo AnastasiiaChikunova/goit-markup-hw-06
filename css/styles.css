@@ -451,7 +451,22 @@ img {
 .footer-container-left {
   margin-right: 120px;
 }
-
+.form-foter{
+  display: flex;
+    justify-content: flex-end;
+}
+.foter-form-mail{
+  display: flex;
+  gap: 24px;
+  
+  }
+  .label-foter{
+    display: block;
+    
+  }
+.social-container{
+  margin-right: 80px;
+}
 /* *****************************************************page portfilio**************************************** */
 /****************************************** main ***************************************************************** */
 .only-one {
@@ -589,6 +604,7 @@ img {
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform var(--anim);
+  padding: 24px;
 }
 .modal-close-btn {
   position: absolute;
@@ -607,6 +623,7 @@ img {
 transition: background-color var(--anim),border var(--anim) ;
 border: 1px solid rgba(0, 0, 0, 0.1);
 
+
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{ 
@@ -621,4 +638,16 @@ transition: fill var(--anim);
 .modal-close-btn:focus{
   fill: var(--background-color-site)
 
+}
+.modal-title{
+  display: block;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height:1.5;
+text-align: center;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+color: var(--background-color-hero-section);
 }
