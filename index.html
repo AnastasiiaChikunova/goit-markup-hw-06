@@ -628,47 +628,44 @@
             <use href="./images/icons.svg#icon-close-black-icon"></use>
           </svg>
         </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <strong class="modal-title">Leave your contacts and we will call you back</strong> 
         <form class="booking-form" name="booking-form">
         <label for="modal-name" class="booking-form-field" >Name</label>
-          <div>
+          <div class="form-order">
           <input class="booking-form-imput" type="text" name="user-name" id="modal-name"/>
-          <svg class="" width="12" height="12">
+          <svg class="form-icon" width="12" height="12">
             <use href="./images/icons.svg#icon-person-black"></use>
           </svg>
           </div>
       
       <label class="booking-form-field" for="modal-phone"> Phone </label>
-        <div>
+        <div class="form-order">
         <input class="booking-form-imput" type="tel" name="usre-phone" id="modal-phone"  />
-        <svg class="" width="13" height="13">
+        <svg class="form-icon" width="13" height="13">
           <use href="./images/icons.svg#icon-phone-black"></use>
         </svg>
       </div>
    
     <label class="booking-form-field" for="modal-email"> Email</label>
-     <div>
+     <div class="form-order">
       <input class="booking-form-imput" type="email" name="user-mail" id="modal-emai" />
-      <svg class="" width="15" height="12">
+      <svg class="form-icon" width="15" height="12">
         <use href="./images/icons.svg#icon-email-black"></use>
       </svg>
     </div>
 
-    <label for="modal-comment">Comment</label>
-          <textarea name="modal-comment" id="modal-comment" rows="6" placeholder="Text imput" ></textarea>
+    <label class="booking-form-field" for="modal-comment">Comment</label>
+        <textarea class="modal-comment" name="modal-comment" id="modal-comment" rows="6" placeholder  ="Text imput" ></textarea>
 
      
-        <label>
-          <div>
-        <input  type="checkbox" name="modal-agreement"/>
-        <span>I accept the terms and conditions of the <a href="">Privacy Policy</a> </span>
-        <svg class="" width="16" height="16">
-          <use href="./images/icons.svg#icon-Checkbox"></use>
-        </svg>
-        </div>
+        <label class="booking-modal-checkbox">
+        
+        <input class="form-check-imput"  type="checkbox" name="modal-agreement"/>
+        <span class="booking-modal-checkbox-text">I accept the terms and conditions of the <a class="booking-modal-checkbox-link" href="">Privacy Policy</a> </span>
+        
       </label>
  
-      <button class="order-button" type="submit">Send</button>
+      <button class="modal-button" type="submit">Send</button>
      </form>
       </div>
     </div>
