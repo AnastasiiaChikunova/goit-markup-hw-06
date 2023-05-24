@@ -607,17 +607,26 @@
           </ul>
         </div>
         <!-- form-footer -->
-      <form class="form-footer">
-        <div class=".form-container">
-      <label class="form-label-footer" for="subskribe-window">Subscribe</label>
-        <input class="form-imput-footer" type="email" name="subskribe-window" id="subskribe-window" placeholder="E-mail" />
-        </div>
-        <button class="button-modal-footer" type="submit">Subskribe 
-        <svg class="form-svg-footer" width="24" height="24">
-          <use href="./images/icons.svg#icon-Frame"></use>
-        </svg>
-        </button>
-      </form>
+        <form class="form-footer">
+          <div class=".form-container">
+            <label class="form-label-footer" for="subskribe-window"
+              >Subscribe</label
+            >
+            <input
+              class="form-imput-footer"
+              type="email"
+              name="subskribe-window"
+              id="subskribe-window"
+              placeholder="E-mail"
+            />
+          </div>
+          <button class="button-modal-footer" type="submit">
+            Subskribe
+            <svg class="form-svg-footer" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <!-- ******************Modal window***************************** -->
@@ -628,47 +637,74 @@
             <use href="./images/icons.svg#icon-close-black-icon"></use>
           </svg>
         </button>
-        <strong class="modal-title">Leave your contacts and we will call you back</strong> 
+        <strong class="modal-title"
+          >Leave your contacts and we will call you back</strong
+        >
         <form class="booking-form" name="booking-form">
-        <label for="modal-name" class="booking-form-field" >Name</label>
+          <label for="modal-name" class="booking-form-field">Name</label>
           <div class="form-order">
-          <input class="booking-form-imput" type="text" name="user-name" id="modal-name"/>
-          <svg class="form-icon" width="12" height="12">
-            <use href="./images/icons.svg#icon-person-black"></use>
-          </svg>
+            <input
+              class="booking-form-imput"
+              type="text"
+              name="user-name"
+              id="modal-name"
+            />
+            <svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-person-black"></use>
+            </svg>
           </div>
-      
-      <label class="booking-form-field" for="modal-phone"> Phone </label>
-        <div class="form-order">
-        <input class="booking-form-imput" type="tel" name="usre-phone" id="modal-phone"  />
-        <svg class="form-icon" width="13" height="13">
-          <use href="./images/icons.svg#icon-phone-black"></use>
-        </svg>
-      </div>
-   
-    <label class="booking-form-field" for="modal-email"> Email</label>
-     <div class="form-order">
-      <input class="booking-form-imput" type="email" name="user-mail" id="modal-emai" />
-      <svg class="form-icon" width="15" height="12">
-        <use href="./images/icons.svg#icon-email-black"></use>
-      </svg>
-    </div>
 
-    <label class="booking-form-field" for="modal-comment">Comment</label>
-        <textarea class="modal-comment" name="modal-comment" id="modal-comment" rows="6" placeholder="Text imput"></textarea>
+          <label class="booking-form-field" for="modal-phone"> Phone </label>
+          <div class="form-order">
+            <input
+              class="booking-form-imput"
+              type="tel"
+              name="usre-phone"
+              id="modal-phone"
+            />
+            <svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </div>
 
-     
-        <label class="booking-modal-checkbox">
-        
-        <input class="form-check-imput"  type="checkbox" name="modal-agreement"/>
-        <span class="booking-modal-checkbox-text">I accept the terms and conditions of the <a class="booking-modal-checkbox-link" href="">Privacy Policy</a> </span>
-        
-      </label>
- 
-      <button class="modal-button" type="submit">Send</button>
-     </form>
+          <label class="booking-form-field" for="modal-email">Email</label>
+          <div class="form-order">
+            <input
+              class="booking-form-imput"
+              type="email"
+              name="user-email"
+              id="modal-email"
+            />
+            <svg class="form-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+          </div>
+
+          <label class="booking-form-field" for="modal-comment">Comment</label>
+          <textarea
+            class="modal-comment"
+            name="modal-comment"
+            id="modal-comment"
+            rows="6"
+            placeholder="Text imput"
+          ></textarea>
+
+          <label class="booking-modal-checkbox">
+            <input
+              class="form-check-imput"
+              type="checkbox"
+              name="modal-agreement"
+            />
+            <span class="booking-modal-checkbox-text"
+              >I accept the terms and conditions of the
+              <a class="booking-modal-checkbox-link" href="">Privacy Policy</a>
+            </span>
+          </label>
+
+          <button class="modal-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
-     <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
