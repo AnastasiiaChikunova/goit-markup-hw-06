@@ -607,11 +607,10 @@
           </ul>
         </div>
         <!-- form-footer -->
-        <form class="form-footer">
-          <div class=".form-container">
-            <label class="form-label-footer" for="subskribe-window"
-              >Subscribe</label
-            >
+        <div>
+          <p class="form-description-footer">Subscribe</p>
+          <form class="form-footer">
+            <label for="subskribe-window" class="form-labbel-footer"></label>
             <input
               class="form-imput-footer"
               type="email"
@@ -619,14 +618,14 @@
               id="subskribe-window"
               placeholder="E-mail"
             />
-          </div>
-          <button class="button-modal-footer" type="submit">
-            Subskribe
-            <svg class="form-svg-footer" width="24" height="24">
-              <use href="./images/icons.svg#icon-Frame"></use>
-            </svg>
-          </button>
-        </form>
+            <button class="button-modal-footer" type="submit">
+              Subskribe
+              <svg class="form-svg-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- ******************Modal window***************************** -->
@@ -637,70 +636,83 @@
             <use href="./images/icons.svg#icon-close-black-icon"></use>
           </svg>
         </button>
-        <strong class="modal-title"
-          >Leave your contacts and we will call you back</strong
-        >
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
         <form class="booking-form" name="booking-form">
-          <label for="modal-name" class="booking-form-field">Name</label>
-          <div class="form-order">
-            <input
-              class="booking-form-imput"
-              type="text"
-              name="user-name"
-              id="modal-name"
-            />
-            <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person-black"></use>
-            </svg>
+          <!--  -->
+          <div class="modal-boxes">
+            <label for="modal-name" class="booking-form-field">Name</label>
+            <div class="form-order">
+              <input
+                class="booking-form-imput"
+                type="text"
+                name="user-name"
+                id="modal-name"
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
           </div>
-
-          <label class="booking-form-field" for="modal-phone"> Phone </label>
-          <div class="form-order">
-            <input
-              class="booking-form-imput"
-              type="tel"
-              name="usre-phone"
-              id="modal-phone"
-            />
-            <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-phone-black"></use>
-            </svg>
+          <!--  -->
+          <div class="modal-boxes">
+            <label class="booking-form-field" for="modal-phone"> Phone </label>
+            <div class="form-order">
+              <input
+                class="booking-form-imput"
+                type="tel"
+                name="usre-phone"
+                id="modal-phone"
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
           </div>
-
-          <label class="booking-form-field" for="modal-email">Email</label>
-          <div class="form-order">
-            <input
-              class="booking-form-imput"
-              type="email"
-              name="user-email"
-              id="modal-email"
-            />
-            <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-email-black"></use>
-            </svg>
+          <!--  -->
+          <div class="modal-boxes">
+            <label class="booking-form-field" for="modal-email">Email</label>
+            <div class="form-order">
+              <input
+                class="booking-form-imput"
+                type="email"
+                name="user-email"
+                id="modal-email"
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
           </div>
-
-          <label class="booking-form-field" for="modal-comment">Comment</label>
-          <textarea
-            class="modal-comment"
-            name="modal-comment"
-            id="modal-comment"
-            rows="6"
-            placeholder="Text imput"
-          ></textarea>
-
-          <label class="booking-modal-checkbox">
-            <input
-              class="form-check-imput"
-              type="checkbox"
-              name="modal-agreement"
-            />
-            <span class="booking-modal-checkbox-text"
-              >I accept the terms and conditions of the
-              <a class="booking-modal-checkbox-link" href="">Privacy Policy</a>
-            </span>
-          </label>
-
+          <!--  -->
+          <div class="modal-boxes-textarea">
+            <label class="booking-form-field" for="modal-comment"
+              >Comment</label
+            >
+            <textarea
+              class="modal-comment"
+              name="modal-comment"
+              id="modal-comment"
+              rows="6"
+              placeholder="Text imput"
+            ></textarea>
+          </div>
+          <!--  -->
+          <div class="modal-boxes">
+            <label class="booking-modal-checkbox">
+              <input
+                class="form-check-imput"
+                type="checkbox"
+                name="modal-agreement"
+              />
+              <span class="booking-modal-checkbox-text"
+                >I accept the terms and conditions of the
+                <a class="booking-modal-checkbox-link" href=""
+                  >Privacy Policy</a
+                >
+              </span>
+            </label>
+          </div>
           <button class="modal-button" type="submit">Send</button>
         </form>
       </div>
