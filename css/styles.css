@@ -450,7 +450,7 @@ img {
   margin-right: 120px;
 }
 .social-container {
-  margin-right: 120px;
+  margin-right: 80px;
 }
 /*********** form-footer********** */
 .form-description-footer {
@@ -755,6 +755,8 @@ img {
 .booking-modal-checkbox {
   display: flex;
   gap: 8px;
+}
+.modal-boxes-chek {
   margin-bottom: 24px;
 }
 .booking-modal-checkbox-text {
